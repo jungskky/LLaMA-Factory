@@ -397,10 +397,6 @@ register_model_group(
             DownloadSource.DEFAULT: "google/codegemma-7b-it",
             DownloadSource.MODELSCOPE: "AI-ModelScope/codegemma-7b-it",
         },
-        "Zephyr-7b-gemma": {
-            DownloadSource.DEFAULT: "HuggingFaceH4/zephyr-7b-gemma-v0.1",
-            DownloadSource.MODELSCOPE: "AI-ModelScope/zephyr-7b-gemma-v0.1",
-        },
     },
     template="gemma",
 )
