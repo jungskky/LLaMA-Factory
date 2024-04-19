@@ -380,7 +380,7 @@ register_model_group(
             DownloadSource.DEFAULT: "google/gemma-7b-it",
             DownloadSource.MODELSCOPE: "AI-ModelScope/gemma-7b-it",
         },
-        "Gemma-7b-gemma": {
+        "Gemma-Zephyr-7b-gemma": {
             DownloadSource.DEFAULT: "HuggingFaceH4/zephyr-7b-gemma-v0.1",
             # DownloadSource.MODELSCOPE: "AI-ModelScope/zephyr-7b-gemma-v0.1",
         },
