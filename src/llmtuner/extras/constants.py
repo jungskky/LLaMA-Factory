@@ -384,6 +384,9 @@ register_model_group(
             DownloadSource.DEFAULT: "HuggingFaceH4/zephyr-7b-gemma-v0.1",
             # DownloadSource.MODELSCOPE: "AI-ModelScope/zephyr-7b-gemma-v0.1",
         },
+        "Gemma-Zephyr-7b-gemma-local": {
+            DownloadSource.DEFAULT: "/content/drive/MyDrive/notebook/datasets/ultrachat_200k_kr/export",
+        },
     },
     template="gemma",
 )
