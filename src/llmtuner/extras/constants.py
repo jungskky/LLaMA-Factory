@@ -388,7 +388,7 @@ register_model_group(
             DownloadSource.DEFAULT: "/content/drive/MyDrive/notebook/datasets/ultrachat_200k_kr/export",
         },
         "Gemma-Zephyr-7b-gemma-coupang": {
-            DownloadSource.DEFAULT: "/content/drive/MyDrive/notebook/datasets/coupang_faq/zephyr_gemma/results",
+            DownloadSource.DEFAULT: "/content/drive/MyDrive/notebook/datasets/coupang_faq/zephyr_gemma/export",
         },
     },
     template="gemma",
