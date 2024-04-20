@@ -1060,6 +1060,10 @@ register_model_group(
             DownloadSource.DEFAULT: "HuggingFaceH4/zephyr-7b-beta",
             DownloadSource.MODELSCOPE: "modelscope/zephyr-7b-beta",
         },
+        "Zephyr-7b-gemma": {
+            DownloadSource.DEFAULT: "HuggingFaceH4/zephyr-7b-gemma-v0.1",
+            DownloadSource.MODELSCOPE: "modelscope/zephyr-7b-gemma-v0.1",
+        },
     },
     template="zephyr",
 )
